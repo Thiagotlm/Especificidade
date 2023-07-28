@@ -1,0 +1,35 @@
+body{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+p{
+    background-color: palegreen;
+}
+
+#conteudo p {
+    background-color: palevioletred;
+}
+#conteudo p.texto{
+    background-color: paleturquoise;
+}
+
+p{
+    color: red !important;
+    font-size: 1.5rem;
+}
+
+div p {
+    color: blue;
+    font-size: 2rem;
+}*/
+
+.teste {
+    padding: 8px;
+    border: 2px solid blue;
+}
+
+.teste p {
+    border: inherit;
+    padding: inherit;
+}

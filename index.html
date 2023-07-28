@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Especificidade</title>
+<style>
+   
+</style>
+
+</head>
+<body>
+    <main id="conteudo">
+        <p class="texto">Texto 01</p>
+        <p>Texto 02</p>
+    </main>
+
+    <p>Texto 03</p>
+
+    <br><br><br>
+
+    <h6>Cálculo de Especificidade</h6>
+    <ol>
+        <li>Inline: 1000 pontos</li>
+        <li>Id: 100 pontos</li>
+        <li>Classes, pseudo-classes e atributos: 10 pontos</li>
+        <li>Tag HTML: 1 ponto</li>
+    </ol>
+
+    <br><br><br>
+
+    <ul>
+        <li><b>#exemplo h1.titulo</b> = 111 pontos</li>
+        <li><b>a:hover</b> = 11 pontos</li>
+        <li><b>div p</b> = 2 pontos</li>
+    </ul>
+    <hr>
+    <h1>!important</h1>
+    <div>
+    <p>Nível de prioridade do efeito em cascata:</p>
+    </div>
+    <ol>
+        <li>Declarações com | important do usuário</li>
+        <li>Declarações com | important do desenvolvedor</li>
+        <li>Folha de estilo do desenvolvedor
+            <ol>
+                <li>CSS inline</li>
+                <li>CSS interno</li>
+                <li>CSS externo</li>
+                <li>Folha de estilos padrões do navegador</li>
+            </ol>
+        </li>
+    </ol>
+    <hr>
+    <h1>Herança | CSS</h1>
+
+    <div class="teste">
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed nesciunt rerum laudantium soluta autem fugiat sunt dolor aperiam reprehenderit nihil quos delectus vero, at dolore nam, minima doloribus beatae est.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum animi voluptate eum praesentium eveniet commodi accusamus perferendis doloremque, quisquam expedita eligendi quae ipsum quidem quod, in totam et debitis sint?
+        </p>
+    </div>
+</body>
+</html>
